@@ -19,7 +19,8 @@ from .import views1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('about/', views1.about),
+   # path('about/', views1.about),
     path('home/', views1.home),
-    # path('', views1.home),
+    path('', views1.home),
 ]
+# 111111111
