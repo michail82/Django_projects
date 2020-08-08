@@ -18,10 +18,11 @@ from django.urls import path
 from .import views1
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+   # path('admin/', admin.site.urls),
    # path('about/', views1.about),
     path('home/', views1.home),
     path('', views1.home),
+    path('reversedffff/', views1.reverse, name= 'reverse'),
 ]
 # 111111111
 # 2222222222
