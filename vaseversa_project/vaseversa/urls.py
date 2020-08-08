@@ -23,6 +23,7 @@ urlpatterns = [
     path('home/', views1.home),
     path('', views1.home),
     path('reversedffff/', views1.reverse, name= 'reverse'),
+   # path('countword/', views1.countword, name= 'countword'),
 ]
 # 111111111
 # 2222222222
