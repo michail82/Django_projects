@@ -5,6 +5,10 @@ def home (request):
 	return render(request, 'home.html')
 
 def reverse (request):
-	return render(request, 'reverse.html')
+	user_text = request.GET['usertext']
+	reverse_text = user_text[::-1]
+	#print (test_get_text)
+	return render(request, 'reverse.html', {'usertext':user_text,
+		'reversedtext':reverse_text})
 
 	#11111111111111
