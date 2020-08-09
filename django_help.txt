@@ -1,0 +1,5 @@
+Создание проекта django:      django-admin startproject name
+Запуск сервера django:        python manage.py runserver 
+Создание виртуальной среды:   virtualenv name
+Активация виртуальной среды:  name/Scripts/activate
+Посмотреть версию Django:     python -m django version
