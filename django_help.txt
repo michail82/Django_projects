@@ -2,4 +2,6 @@
 Запуск сервера django:        python manage.py runserver 
 Создание виртуальной среды:   virtualenv name
 Активация виртуальной среды:  name/Scripts/activate
-Посмотреть версию Django:     python -m django version
+Выйти из виртуальной среды    deactivate
+Посмотреть версию Django:     python -m django --version
+Утсановть Django в среду:     pip3 install django==3.0.7
