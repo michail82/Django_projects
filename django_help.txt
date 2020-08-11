@@ -5,3 +5,4 @@
 Выйти из виртуальной среды    deactivate
 Посмотреть версию Django:     python -m django --version
 Утсановть Django в среду:     pip3 install django==3.0.7
+Создать APP в среде:          python manage.py startapp name
